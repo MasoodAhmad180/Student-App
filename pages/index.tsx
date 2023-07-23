@@ -39,6 +39,7 @@ export default function Home() {
     
   } = useStudents()
 
+
   return (
     <>
       <nav className="navbar  bg-primary">
@@ -167,6 +168,8 @@ export default function Home() {
             }
           </Modal.Footer>
         </Modal>
+
+        {/* <p> lorem dnfjn,jbsdjhbvf,jcxbhvbdf,sbgvhdsfbhfdjkbghfbdbgfhdsbjsdfhgjhdfkdfh <p/> */}
       </div>
     </>
   )
